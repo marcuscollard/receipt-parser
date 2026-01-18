@@ -1,0 +1,26 @@
+# Personal data (inputs)
+receipts*.txt
+receipts_*.txt
+adjustments.txt
+
+# Personal data (outputs)
+summary.csv
+sammanfattning*.csv
+categorized.txt
+kategoriserad*.txt
+categorized_report*.txt
+kategoriserad_rapport*.txt
+categorized_report*.xlsx
+kategoriserad_rapport*.xlsx
+family_summary*.txt
+familj_sammanfattning*.txt
+
+# Personal data (suggestions/derived)
+items_suggested.csv
+
+# Exports
+*.pdf
+
+# Python
+__pycache__/
+*.pyc

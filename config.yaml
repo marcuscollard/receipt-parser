@@ -1,0 +1,12 @@
+# config.yaml
+overwrite: false
+month: all                     # optional, e.g. "dec" or "all" -> uses receipts_<month>.txt and writes outputs to ./<month>/
+text_file: receipts.txt         # paste all your receipt text here (ignored when month is set)
+items: items.csv                # your canonical items + aliases + family_pct
+out: sammanfattning.csv         # detailed CSV log
+report: kategoriserad.txt       # summary, sorted by spend
+report_text: kategoriserad_rapport.txt   # formatted text report derived from kategoriserad.txt
+report_xlsx: kategoriserad_rapport.xlsx  # formatted spreadsheet (requires openpyxl)
+adjust: adjustments.txt         # manual corrections (optional)
+pdf_dir: null                   # leave null if not using PDFs
+ocr: false                      # only needed if pdf_dir + scanned PDFs

@@ -1,0 +1,23 @@
+name: ica
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - pyyaml
+  - python-dateutil
+  - rapidfuzz
+
+  # Optional PDF text extraction
+  - pdfplumber
+
+  # Optional report export
+  - openpyxl
+
+  # Optional OCR stack (only needed if you actually use OCR_AVAILABLE path)
+  - pytesseract
+  - pdf2image
+  - poppler
+
+  # Common quality-of-life / reliability
+  - pip
